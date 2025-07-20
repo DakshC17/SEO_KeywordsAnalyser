@@ -3,7 +3,7 @@ import requests
 import json
 from typing import Dict, Any
 
-# Configure Streamlit page
+
 st.set_page_config(
     page_title="SEO Tools Suite",
     page_icon="🚀",
@@ -11,7 +11,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Backend API URL
+
 API_BASE_URL = "http://localhost:8000"
 
 def main():
@@ -19,7 +19,7 @@ def main():
     st.markdown("*Your complete toolkit for content optimization*")
     st.markdown("---")
     
-    # Sidebar for tool selection
+    
     with st.sidebar:
         st.header("🛠️ Select Tool")
         
